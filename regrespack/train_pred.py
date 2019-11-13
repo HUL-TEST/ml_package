@@ -45,4 +45,4 @@ class mltest():
             print("Model Performance evaluation :\n")
             print("Mean Squared error of the {} is".format(self.model_name))
             return mean_squared_error(y_test, y_pred)
-    
+
