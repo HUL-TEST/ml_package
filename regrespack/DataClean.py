@@ -81,4 +81,5 @@ class clean:
         
     
     def return_clean_data(self):
+        print('Data clean completed. Exiting.')
         return self.X
